@@ -31,7 +31,7 @@
   <!-- ヘッダー -->
   <header>
     <h1 style="display: flex; align-items: center; text-align: left;">
-      <img src="logo.png" alt="ロゴ" style="height: 1em; margin-right: 0.5em;">
+      <img src="rogo.png" alt="ロゴ" style="height: 1em; margin-right: 0.5em;">
       ライフコンパス
     </h1>
   </header>
@@ -39,7 +39,11 @@
   <!-- メインコンテンツ -->
   <main>
     <!-- メインタイトル -->
-    <section class="section bg-main-title">
+    <section class="section bg-main-title" style="position: relative;">
+      <video autoplay muted loop playsinline style="width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: -1; object-fit: cover;">
+        <source src="path/to/main.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <h2>案件×ビジネスマッチングで売上を最大化！BizCompass</h2>
       <p style="text-align: center;">あなたのビジネスを加速させる案件共有＆協業プラットフォーム</p>
       <p>👉 例えばこんな活用方法が可能！</p>
