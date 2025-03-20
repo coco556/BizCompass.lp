@@ -1,0 +1,77 @@
+/* リセットスタイル */
+body, h1, h2, h3, p, ul, li, section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 基本スタイル */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0; /* デフォルトのマージンをリセット */
+  padding: 0; /* デフォルトのパディングをリセット */
+}
+
+h1, h2, h3 {
+  margin-top: 20px; /* 見出しの上に空白を追加 */
+  text-align: center; /* 見出しを中央揃えに設定 */
+}
+
+ul {
+  list-style-type: none; /* リストのスタイルをリセット */
+}
+
+/* セクションスタイル */
+.section {
+  padding: 20px; /* セクション内のコンテンツにパディングを追加 */
+  width: 100%; /* セクションが全幅を占めるように設定 */
+  box-sizing: border-box; /* パディングを含む幅の計算 */
+}
+
+/* 背景色セクション */
+.bg-main-title {
+  background-color: #DFFFD6; /* 黄緑 */
+}
+.bg-effect {
+  background-color: #F0FFF0; /* 薄い黄緑 */
+}
+.bg-closing {
+  background-color: #FFFAF0; /* 薄い黄色 */
+}
+.bg-problem {
+  background-color: #FFFACD; /* レモン色 */
+}
+.bg-solution {
+  background-color: #FFF8DC; /* コーンシルク */
+}
+.bg-benefit {
+  background-color: #FFFFE0; /* ライトイエロー */
+}
+.bg-case {
+  background-color: #FFEFDB; /* 薄いオレンジ */
+}
+.bg-usage {
+  background-color: #FAFAD2; /* ライトゴールデンロッドイエロー */
+}
+.bg-future {
+  background-color: #FFFFF0; /* アイボリー */
+}
+.bg-features {
+  background-color: #FFF5EE; /* シーシェル */
+}
+.bg-flow {
+  background-color: #F5FFFA; /* ミントクリーム */
+}
+
+/* CTAボタンスタイル */
+.cta-button {
+  background-color: orange; /* オレンジ色 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
