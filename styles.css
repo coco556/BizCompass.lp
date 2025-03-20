@@ -79,6 +79,42 @@ ul {
   background-color: #F5FFFA; /* ミントクリーム */
 }
 
+/* メインタイトルセクションのオーバーレイ */
+.bg-main-title .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 半透明の黒いオーバーレイ */
+  z-index: 0;
+}
+
+/* メインタイトルセクションのコンテンツ */
+.bg-main-title .content {
+  position: relative;
+  z-index: 1;
+  color: white; /* 文字の色を白にする */
+  text-align: center;
+  padding: 20px;
+}
+
+/* メインタイトルセクションのテキストスタイル */
+.bg-main-title .content h2,
+.bg-main-title .content p,
+.bg-main-title .content ul {
+  margin: 0 0 10px;
+}
+
+.bg-main-title .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bg-main-title .content ul li {
+  margin: 5px 0;
+}
+
 /* CTAボタンスタイル */
 .cta-button {
   background-color: orange; /* オレンジ色 */
