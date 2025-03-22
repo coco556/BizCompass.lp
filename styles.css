@@ -46,7 +46,9 @@ ul {
 
 /* 背景色セクション */
 .bg-main-title {
-  background-color: #DFFFD6; /* 黄緑 */
+  background-color: transparent; /* 背景色を透明に設定 */
+  position: relative;
+  overflow: hidden;
 }
 .bg-effect {
   background-color: #F0FFF0; /* 薄い黄緑 */
@@ -79,15 +81,15 @@ ul {
   background-color: #F5FFFA; /* ミントクリーム */
 }
 
-/* メインタイトルセクションのオーバーレイ */
-.bg-main-title .video-overlay {
+/* メインタイトルセクションの動画 */
+.background-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* 半透明の黒いオーバーレイ */
-  z-index: 0;
+  z-index: -1;
+  object-fit: cover;
 }
 
 /* メインタイトルセクションのコンテンツ */
