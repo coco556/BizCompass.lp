@@ -46,8 +46,9 @@ ul {
 
 /* 背景色セクション */
 .bg-main-title {
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .bg-effect {
   background-color: #F0FFF0; /* 薄い黄緑 */
@@ -80,40 +81,45 @@ ul {
   background-color: #F5FFFA; /* ミントクリーム */
 }
 
-/* メインタイトルセクションの動画 */
-.background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
+/* メインタイトルセクションのコンテンツ */
+.main-title-content {
+  display: flex;
   width: 100%;
-  height: 100%;
-  z-index: -1;
-  object-fit: cover;
-  opacity: 0.5; /* 動画の透明度を設定 */
+  align-items: center;
 }
 
-/* メインタイトルセクションのコンテンツ */
-.bg-main-title .content {
-  position: relative;
-  z-index: 1;
-  color: white; /* 文字の色を白にする */
-  text-align: center;
+.video-container {
+  flex: 1;
+  max-width: 50%;
+}
+
+.background-video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.7; /* 動画の透明度を設定 */
+}
+
+.text-content {
+  flex: 1;
   padding: 20px;
+  color: white; /* 文字の色を白にする */
+  text-align: left;
 }
 
 /* メインタイトルセクションのテキストスタイル */
-.bg-main-title .content h2,
-.bg-main-title .content p,
-.bg-main-title .content ul {
+.bg-main-title .text-content h2,
+.bg-main-title .text-content p,
+.bg-main-title .text-content ul {
   margin: 0 0 10px;
 }
 
-.bg-main-title .content ul {
+.bg-main-title .text-content ul {
   list-style: none;
   padding: 0;
 }
 
-.bg-main-title .content ul li {
+.bg-main-title .text-content ul li {
   margin: 5px 0;
 }
 
