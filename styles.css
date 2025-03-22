@@ -97,13 +97,12 @@ ul {
   width: 100%;
   height: auto;
   object-fit: cover;
-  opacity: 0.7; /* 動画の透明度を設定 */
 }
 
 .text-content {
   flex: 1;
   padding: 20px;
-  color: white; /* 文字の色を白にする */
+  color: black; /* 文字の色を黒にする */
   text-align: left;
 }
 
