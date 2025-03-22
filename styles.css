@@ -152,6 +152,48 @@ ul {
   text-align: left; /* 右側のコンテンツを左寄せ */
 }
 
+/* 悩みの事例セクションのスタイル */
+.problem-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* 個人事業主と経営者の内容の間にスペースを追加 */
+}
+
+.left-problem, .right-problem {
+  flex: 1;
+}
+
+.left-problem h2, .right-problem h2 {
+  text-align: center; /* 個人事業主と経営者のタイトルを中央揃え */
+}
+
+.left-problem p, .right-problem p {
+  text-align: left; /* 個人事業主と経営者の内容を左寄せ */
+}
+
+.illustration {
+  text-align: center;
+}
+
+/* 悩み解決に特化した内容のサービス特徴セクションのスタイル */
+.solution-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* 個人事業主と経営者の内容の間にスペースを追加 */
+}
+
+.left-solution, .right-solution {
+  flex: 1;
+}
+
+.left-solution h2, .right-solution h2 {
+  text-align: center; /* 個人事業主と経営者向けのタイトルを中央揃え */
+}
+
+.left-solution p, .right-solution p {
+  text-align: left; /* 個人事業主と経営者向けの内容を左寄せ */
+}
+
 /* CTAボタンスタイル */
 .cta-button {
   background-color: orange; /* オレンジ色 */
