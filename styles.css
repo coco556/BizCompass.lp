@@ -122,6 +122,29 @@ ul {
   margin: 5px 0;
 }
 
+/* クロージングセクションのスタイル */
+.closing-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.closing-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left-content {
+  flex: 1;
+  text-align: left;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+
 /* CTAボタンスタイル */
 .cta-button {
   background-color: orange; /* オレンジ色 */
