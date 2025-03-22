@@ -46,7 +46,6 @@ ul {
 
 /* 背景色セクション */
 .bg-main-title {
-  background-color: transparent; /* 背景色を透明に設定 */
   position: relative;
   overflow: hidden;
 }
@@ -90,6 +89,7 @@ ul {
   height: 100%;
   z-index: -1;
   object-fit: cover;
+  opacity: 0.5; /* 動画の透明度を設定 */
 }
 
 /* メインタイトルセクションのコンテンツ */
