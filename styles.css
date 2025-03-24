@@ -194,6 +194,30 @@ ul {
   text-align: left; /* 個人事業主と経営者向けの内容を左寄せ */
 }
 
+/* 事例セクションのスタイル */
+.case-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* 左側と右側の内容の間にスペースを追加 */
+}
+
+.left-case, .right-case {
+  flex: 1;
+}
+
+.left-case h3, .right-case h3 {
+  text-align: left; /* 左側と右側のタイトルを左寄せ */
+}
+
+.left-case ul, .right-case ul {
+  padding-left: 20px; /* リストの左側に余白を追加 */
+}
+
+.left-case ul li, .right-case ul li {
+  text-align: left; /* 左側と右側のリスト項目を左寄せ */
+  margin-bottom: 10px; /* リスト項目の間にスペースを追加 */
+}
+
 /* CTAボタンスタイル */
 .cta-button {
   background-color: orange; /* オレンジ色 */
