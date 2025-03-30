@@ -125,6 +125,17 @@ ul {
   margin: 5px 0;
 }
 
+.effects-container {
+  display: flex;
+  justify-content: space-around; /* アイテム間の間隔を調整 */
+  align-items: flex-start; /* アイテムをコンテナの上部に揃える */
+}
+
+.effect-item {
+  flex: 1;
+  margin: 0 10px; /* 必要に応じてマージンを調整 */
+}
+
 /* クロージングセクションのスタイル */
 .closing-section {
   display: flex;
