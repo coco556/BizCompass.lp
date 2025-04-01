@@ -5,6 +5,12 @@ header {
 }
 
 /* ロゴ画像スタイル */
+header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* h1内の内容を中央揃え */
+}
+
 header h1 img {
   height: 1em;
   transform: scale(1.5);
