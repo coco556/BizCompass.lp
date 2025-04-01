@@ -139,9 +139,11 @@ ul {
   align-items: flex-start; /* アイテムをコンテナの上部に揃える */
 }
 
+/* 効果項目のスタイル */
 .effect-item {
   flex: 1;
   margin: 0 10px; /* 必要に応じてマージンを調整 */
+  text-align: center; /* テキストを中央揃え */
 }
 
 .effect-title {
