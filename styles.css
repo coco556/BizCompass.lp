@@ -99,6 +99,14 @@ ul {
   height: 100%; /* 必要に応じて調整 */
 }
 
+/* メインタイトルの大きめで太字のスタイル */
+.main-title-large {
+  font-size: 2em; /* 文字サイズを大きく */
+  font-weight: bold; /* 文字を太字に */
+  color: white; /* 文字の色を白に */
+  text-align: center; /* テキストを中央揃え */
+}
+
 .text-content {
   text-align: center; /* テキストを中央揃え */
   margin: 0 auto;
