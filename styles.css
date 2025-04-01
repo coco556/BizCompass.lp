@@ -103,7 +103,7 @@ ul {
   text-align: center; /* テキストを中央揃え */
   margin: 0 auto;
   padding: 20px;
-  color: black;
+  color: white; /* 文字の色を白にする */
   display: flex;
   flex-direction: column;
   justify-content: center; /* 中央揃え */
